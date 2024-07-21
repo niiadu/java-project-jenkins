@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/niiadu/Boardgame.git'
+                git branch: 'main', url: 'https://github.com/niiadu/web-app.git'
             }
         }
 
@@ -55,7 +55,7 @@ pipeline {
         
         stage("Deploy to UAT") {
             steps {
-                deploy adapters: [tomcat9(credentialsId: 'tomcat-credential', path: '', url: 'http://51.20.72.221:8080/')], contextPath: null, war: 'target/*.jar'
+                deploy adapters: [tomcat9(credentialsId: 'tomcat-credential', path: '', url: 'http://51.20.72.221:8080/')], contextPath: null, war: 'target/*.war'
             }
         }
     }

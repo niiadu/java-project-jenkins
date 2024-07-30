@@ -1,5 +1,6 @@
 # java-project-jenkins
-## The output after running tomcat on an EC2 server
+
+The output after installing tomcat on the EC2 server
 <img width="1495" alt="Screenshot 2024-07-20 at 8 51 19 PM" src="https://github.com/user-attachments/assets/73a887ca-5d9c-4af7-83bd-d20a334a975e">
 
 ## Jenkins UI, after installing jenkins on the EC2 server

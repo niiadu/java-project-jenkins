@@ -1,5 +1,5 @@
 # Jenkins project to Deploy to Tomcat
-This project is designed to execute a CICD pipeline to build a java code, use sonarqube to run code quality. Upload the war file to sonartype nexus for archiving and finall deploy the code to tomcat for final viewer access. I started the process by installing tomcat, jenkins, sonarqube, and nexus and different ec2 instances. The configurations file could be found in this repository. After i wrote a groovy script to point out the steps the pipeline would have to go through before final deploment. Below are images of the process and the successful deployment of the project.
+This project is designed to execute a CICD pipeline to build a java code, use sonarqube to run code quality. Upload the war file to sonartype nexus for archiving and finally deploy the code to tomcat for final viewer access. I started the process by installing tomcat, jenkins, sonarqube, and nexus on different ec2 instances. The configurations file could be found in this repository. After i wrote a groovy script to point out the steps the pipeline would have to go through before final deploment. Below are images of the process and the successful deployment of the project.
 
 I used a sample java code forked from Jomacs IT solution for this project.
 
